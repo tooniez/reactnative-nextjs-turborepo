@@ -12354,6 +12354,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nextjs-web@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "nextjs-web@workspace:."
+  dependencies:
+    "@babel/runtime": "npm:^7.24.6"
+    "@manypkg/cli": "npm:^0.21.4"
+    check-dependency-version-consistency: "npm:^4.1.0"
+    eslint: "npm:^9.3.0"
+    node-gyp: "npm:^10.1.0"
+    prettier: "npm:^3.2.5"
+    turbo: "npm:^1.13.3"
+    typescript: "npm:^5.4.5"
+  languageName: unknown
+  linkType: soft
+
 "nice-try@npm:^1.0.4":
   version: 1.0.5
   resolution: "nice-try@npm:1.0.5"
@@ -15007,21 +15022,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"starter-free@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "starter-free@workspace:."
-  dependencies:
-    "@babel/runtime": "npm:^7.24.6"
-    "@manypkg/cli": "npm:^0.21.4"
-    check-dependency-version-consistency: "npm:^4.1.0"
-    eslint: "npm:^9.3.0"
-    node-gyp: "npm:^10.1.0"
-    prettier: "npm:^3.2.5"
-    turbo: "npm:^1.13.3"
-    typescript: "npm:^5.4.5"
-  languageName: unknown
-  linkType: soft
-
 "stat-mode@npm:0.3.0":
   version: 0.3.0
   resolution: "stat-mode@npm:0.3.0"
@@ -16693,11 +16693,11 @@ __metadata:
   linkType: hard
 
 "ws@npm:^6.2.2":
-  version: 6.2.2
-  resolution: "ws@npm:6.2.2"
+  version: 6.2.3
+  resolution: "ws@npm:6.2.3"
   dependencies:
     async-limiter: "npm:~1.0.0"
-  checksum: 10/bb791ac02ad7e59fd4208cc6dd3a5bf7a67dff4611a128ed33365996f9fc24fa0d699043559f1798b4bc8045639fd21a1fd3ceca81de560124444abd8e321afc
+  checksum: 10/19f8d1608317f4c98f63da6eebaa85260a6fe1ba459cbfedd83ebe436368177fb1e2944761e2392c6b7321cbb7a375c8a81f9e1be35d555b6b4647eb61eadd46
   languageName: node
   linkType: hard
 
