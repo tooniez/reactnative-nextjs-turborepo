@@ -28,7 +28,7 @@
     "react-native-web": "~0.19.12"
   },
   "dependencies": {
-    "@babel/runtime": "^7.24.6",
+    "@babel/runtime": "^7.26.10",
     "@manypkg/cli": "^0.21.4",
     "check-dependency-version-consistency": "^4.1.0",
     "eslint": "^9.3.0",
