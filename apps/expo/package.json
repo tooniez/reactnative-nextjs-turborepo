@@ -10,7 +10,7 @@
     "eject": "npx expo eject"
   },
   "dependencies": {
-    "@babel/runtime": "^7.24.6",
+    "@babel/runtime": "^7.26.10",
     "@expo/config-plugins": "~8.0.4",
     "@my/ui": "0.0.1",
     "app": "0.0.0",
