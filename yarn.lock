@@ -3227,49 +3227,49 @@ __metadata:
   linkType: hard
 
 "@remix-run/node@npm:^2.7.2":
-  version: 2.9.2
-  resolution: "@remix-run/node@npm:2.9.2"
+  version: 2.17.3
+  resolution: "@remix-run/node@npm:2.17.3"
   dependencies:
-    "@remix-run/server-runtime": "npm:2.9.2"
+    "@remix-run/server-runtime": "npm:2.17.3"
     "@remix-run/web-fetch": "npm:^4.4.2"
     "@web3-storage/multipart-parser": "npm:^1.0.0"
     cookie-signature: "npm:^1.1.0"
     source-map-support: "npm:^0.5.21"
     stream-slice: "npm:^0.1.2"
-    undici: "npm:^6.10.1"
+    undici: "npm:^6.21.2"
   peerDependencies:
     typescript: ^5.1.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/3751996afcb8f7b23dc8059456104b21dc715da9303a59d379c53f3440696a52ef4f4cd0d252e93454f72c695a7264ec1e514f11b720fd9b992c6c1a90e88b01
+  checksum: 10/2b56d0b82c242e25bad254a95436162fc68d1ac4a591598c51894b130b19cd8a5ebc13b690755420a681e1d6b287e99a2e051cc6a89ef0553062506f0623ee40
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.16.1":
-  version: 1.16.1
-  resolution: "@remix-run/router@npm:1.16.1"
-  checksum: 10/0bfbf2a04707e7f7fde5c76614e7990945a6d854d50c1f9f63cea50208ff864a8920420534ff7ddff6a0bcb584c84456d2f7613d6d6e896db46cafcc70d8fb65
+"@remix-run/router@npm:1.23.0":
+  version: 1.23.0
+  resolution: "@remix-run/router@npm:1.23.0"
+  checksum: 10/0a9f02c26c150d8210b05927c43d2f57ee8b7f812c81abb76df1721c7367ef692e54f4044981e756ce13d0619fb3c6a9b1514524d69aea9b32bfaf565299a8c7
   languageName: node
   linkType: hard
 
-"@remix-run/server-runtime@npm:2.9.2":
-  version: 2.9.2
-  resolution: "@remix-run/server-runtime@npm:2.9.2"
+"@remix-run/server-runtime@npm:2.17.3":
+  version: 2.17.3
+  resolution: "@remix-run/server-runtime@npm:2.17.3"
   dependencies:
-    "@remix-run/router": "npm:1.16.1"
+    "@remix-run/router": "npm:1.23.0"
     "@types/cookie": "npm:^0.6.0"
     "@web3-storage/multipart-parser": "npm:^1.0.0"
-    cookie: "npm:^0.6.0"
+    cookie: "npm:^0.7.2"
     set-cookie-parser: "npm:^2.4.8"
     source-map: "npm:^0.7.3"
-    turbo-stream: "npm:^2.0.0"
+    turbo-stream: "npm:2.4.1"
   peerDependencies:
     typescript: ^5.1.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/52daceb6d4e2093404ab6859b59599cc548dc8627914e6b8275ee12739c8a4cd20af65275a896a40d413eac92885763e7476b16fd1b8a6d34430ebd484fc3341
+  checksum: 10/4b10cabaf454937fe5e9b9a93f34ca0bd1d08f8b5564c4497eb0c4504265bec8f24a5d3e4cdd251f67654981ececa3efe3f7cf968e5e6bbf6fa8825ec0fd9522
   languageName: node
   linkType: hard
 
@@ -7140,10 +7140,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cookie@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "cookie@npm:0.6.0"
-  checksum: 10/c1f8f2ea7d443b9331680598b0ae4e6af18a618c37606d1bbdc75bec8361cce09fe93e727059a673f2ba24467131a9fb5a4eec76bb1b149c1b3e1ccb268dc583
+"cookie@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "cookie@npm:0.7.2"
+  checksum: 10/24b286c556420d4ba4e9bc09120c9d3db7d28ace2bd0f8ccee82422ce42322f73c8312441271e5eefafbead725980e5996cc02766dbb89a90ac7f5636ede608f
   languageName: node
   linkType: hard
 
@@ -16192,10 +16192,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-stream@npm:^2.0.0":
-  version: 2.2.0
-  resolution: "turbo-stream@npm:2.2.0"
-  checksum: 10/1a61be95585d6c901c7f626497765e28c38332f6562f4206e8a295dca87297d044f2413f369764365a6cbb13aae3c21fee2aace4525ff32c1e787e418916914e
+"turbo-stream@npm:2.4.1":
+  version: 2.4.1
+  resolution: "turbo-stream@npm:2.4.1"
+  checksum: 10/098225d951b688a2f92390d7773bb776740e78f68e77820aad590ca45be79b3991026c1f756c826c69de7b278deeec01f4600c53e8b1db349f625f21933f6beb
   languageName: node
   linkType: hard
 
@@ -16441,10 +16441,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:^6.10.1":
-  version: 6.18.2
-  resolution: "undici@npm:6.18.2"
-  checksum: 10/27c66d84d02c2e4375ad30fae081fa1f4c4158e0880f51bb5ea7b4a6fc0a6582fa68084d45c6cae3cb56a754607191a973621a15d271111cee790bf0925db00b
+"undici@npm:^6.21.2":
+  version: 6.23.0
+  resolution: "undici@npm:6.23.0"
+  checksum: 10/56950995e7b628e62c996430445d17995ca9b70f6f2afe760a63da54205660d968bd08f0741b6f4fb008f40aa35c69cce979cd96ced399585d8c897a76a4f1d1
   languageName: node
   linkType: hard
 
